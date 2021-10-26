@@ -1,8 +1,6 @@
-STTReceiver sttReceiver;
-
 void setup() {
   size(640, 480, P2D);
-  sttReceiver = new STTReceiver(this);
+  setupSttReceiver();
 }
 
 void draw() {
